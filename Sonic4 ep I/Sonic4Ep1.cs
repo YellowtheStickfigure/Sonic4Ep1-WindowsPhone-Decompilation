@@ -20,7 +20,7 @@ public class Sonic4Ep1 : Game
 		this.graphics.SupportedOrientations = DisplayOrientation.LandscapeLeft;
 		this.graphics.PreparingDeviceSettings += new EventHandler<PreparingDeviceSettingsEventArgs>(this.graphics_PreparingDeviceSettings);
 		this.graphics.SynchronizeWithVerticalRetrace = true;
-		this.graphics.IsFullScreen = false;
+		this.graphics.IsFullScreen = true;
 		base.IsMouseVisible = true;
 		base.Content.RootDirectory = "Content";
 		base.TargetElapsedTime = TimeSpan.FromTicks(333333L);
